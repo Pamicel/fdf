@@ -36,5 +36,5 @@ typedef struct      s_params
 
 void                ft_plot(t_params *params, int alpha_inc, void *mlx, void *win);
 void                ft_draw_wu(t_params *params, void *mlx, void *win);
-
+int                 ft_special_lines(t_params *params, void *mlx, void *win);
 #endif
